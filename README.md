@@ -58,4 +58,4 @@ void loop() {
   digitalWrite(LED_5, HIGH);  // Rojo peatones encendido
   delay(2000); // 2 segundos
 }
-``
+```
