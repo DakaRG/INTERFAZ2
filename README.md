@@ -30,7 +30,7 @@ void loop() {   // Se repite infinitamente
   //delay(1000);             // Esperar 1 segundo
 }
 ```
-<a href="https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ledparpadeante.png">Led Parpadeante.</a>
+<img src="https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ledparpadeante.png" width=1024 height=550/>
 
 
 ##### Ejercicio n°3 Arduino: Control por pulsador
@@ -48,6 +48,8 @@ void loop() {
   }
 }
 ```
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ledpulsador.png" width=1024 height=550 />
+
 
 ##### Ejercicio n°4: LED con potenciometro
 Objetivo: Regular brillo de un LED con un potenciómetro. Circuito: Potenciómetro: Patas extremas a +5V y GND, central a pin A0. LED en pin 9 (con resistencia 220 Ω).
@@ -61,6 +63,7 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/potenciometro.png" width=1024 height=550 />
 
 ##### Ejercicio n°5: Semáforo
 ```
@@ -109,3 +112,4 @@ void loop() {
   delay(2000); // 2 segundos
 }
 ```
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/semaforo.png" width= 1024 height= 550 />
