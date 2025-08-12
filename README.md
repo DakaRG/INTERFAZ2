@@ -30,6 +30,9 @@ void loop() {   // Se repite infinitamente
   //delay(1000);             // Esperar 1 segundo
 }
 ```
+<a href="https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ledparpadeante.png">Led Parpadeante.</a>
+
+
 ##### Ejercicio n°3 Arduino: Control por pulsador
 Objetivo: Encender un LED solo al presionar un botón. Circuito: Pulsador en pin 2 (con resistencia pull-down de 10k Ω). LED en pin 13.
 ```
