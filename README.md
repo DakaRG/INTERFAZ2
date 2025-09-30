@@ -215,8 +215,8 @@ void draw()
   
 }
 ```
-##### Arduino Boton+Pot Processing
-codico arduino
+##### EJ 8 Arduino Boton+Pot Processing PRESENTACIÓN
+código arduino
 ```
 int buttonPin = 2;       // Pin del botón
 int potPin = A0;         // Pin del potenciómetro
@@ -239,7 +239,7 @@ void loop() {
 }
 ```
 
-codigo processing
+## ej 8 codigo processing
 ```
 import processing.serial.*;
 
@@ -299,7 +299,7 @@ class CircleData {
   }
 }
 ```
-#### If Else Potenciómetro
+#### Ejercicio 9: If Else Potenciómetro
 ```
 int valor;  // aquí guardaremos la lectura del sensor
 
@@ -322,7 +322,7 @@ void loop() {
 }
 ```
 
-##### ForIfElse LEDS / if else if else
+##### Ejercicio ForIfElse LEDS / if else if else
 ```
 int leds[] = {2, 3, 4, 5}; // Creamos un arreglo con los pines donde van conectados los LEDs
 
@@ -346,7 +346,7 @@ void loop() {
 }
 ```
 
-###### Botonera LED
+###### Ejercicio 10: Botonera LED
 ```
 // --- Configuración de botones ---
 const int numButtons = 3;
