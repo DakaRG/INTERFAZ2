@@ -32,6 +32,7 @@ void loop() {   // Se repite infinitamente
 ```
 <img src="https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ledparpadeante.png" width=1024 height=550/>
 <img src="https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej2.2.jpg" width=1024 height=800/>
+<img src="https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej2.jpg" width=1024 height=800/>
 
 
 ##### Ejercicio n°3 Arduino: Control por pulsador
