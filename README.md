@@ -173,17 +173,32 @@ void loop() {
   //delay(2000); // 2 segundos
 }
 ```
-##### Ejercicio arduino PROCESSING
+##### Ejercicio 6: Elipse interactivo
+Arduino
 ```
-import processing.serial.*;
+unsigned int ADCValue;
+void setup(){
+    Serial.begin(9600);
+}
 
+void loop(){
+
+ int val = analogRead(0);
+   val = map(val, 0, 300, 0, 255);
+    Serial.println(val);
+delay(50);
+}
+```
+
+codigo processing
+```
 Serial myPort;  // Crear objeto de la clase Serial
 static String val;    // Datos recibidos desde el puerto serial
 int sensorVal = 0;
 
 void setup()
 {
-  //background(0); 
+  background(0); 
   //fullScreen(P3D);
    size(1080, 720);
    noStroke();
@@ -207,18 +222,19 @@ void draw()
   }
   println(sensorVal); // léelos y guárdalos en vals!
   }  
- background(0);
+ //background(0);
   // Escala el valor de mouseX de 0 a 640 a un rango entre 0 y 175
   float c = map(sensorVal, 0, width, 0, 400);
   // Escala el valor de mouseX de 0 a 640 a un rango entre 40 y 300
   float d = map(sensorVal, 0, width, 40,500);
   fill(255, c, 0);
-  ellipse(width/2, height/2, d, d); 
-  fill(200, c, 100);
-  ellipse(height/2, width/2, d, d);
-  
+  ellipse(width/2, height/2, d, d);   
 }
 ```
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej6circuito.jpg" width= 1024 height= 800 />
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej6.jpg" width= 1024 height= 800 />
+
+
 ##### EJ 8 Arduino Boton+Pot Processing PRESENTACIÓN
 código arduino
 ```
