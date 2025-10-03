@@ -390,7 +390,7 @@ class CircleData {
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej8.jpg" width= 1024 height= 800 />
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej8.1.jpg" width= 1024 height= 800 />
 
-#### Ejercicio 9: If Else Potenciómetro
+#### Ejercicio If Else Potenciómetro
 ```
 int valor;  // aquí guardaremos la lectura del sensor
 
@@ -413,7 +413,7 @@ void loop() {
 }
 ```
 
-##### Ejercicio ForIfElse LEDS / if else if else
+##### Ejercicio 9: ForIfElse LEDS / if else if else
 ```
 int leds[] = {2, 3, 4, 5}; // Creamos un arreglo con los pines donde van conectados los LEDs
 
@@ -436,6 +436,7 @@ void loop() {
   }
 }
 ```
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/forifelse.PNG" width= 1024 height= 500 />
 
 ###### Ejercicio 10: Botonera LED
 ```
@@ -589,3 +590,5 @@ void playTrack(int index) {
   currentTrack = index;
 }
 ```
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/botonera.PNG" width= 1024 height= 500 />
+#LINK DRIVE: [https://drive.google.com/drive/folders/1BS_4HVPIA8Epd3rhjGsshbNoOhZ9KH9F?usp=drive_link]
