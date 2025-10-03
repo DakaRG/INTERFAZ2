@@ -115,6 +115,7 @@ void loop() {
 }
 ```
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/semaforo.png" width= 1024 height= 550 />
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej5.jpg" />
 
 ##### EJERCICIO 5.1 SEMAFORO PARPADEANTE
 ```
