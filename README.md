@@ -302,6 +302,24 @@ void draw() {
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej7.jpg" width= 1024 height= 800 />
 
 ##### Ej unión botonera y potenciómetro 
+```
+setup() {
+pinMode(2, INPUT);
+pinMode(13, OUTPUT);
+pinMode(9, OUTPUT);
+
+loop() {
+digitalRead(2) == HIGH) {
+digitalWrite(13, HIGH);
+} else {
+digitalWrite(13, LOW);
+
+int valor = analogRead(A0);
+int brillo = map(valor, 0, 1023, 0, 255);
+analogWrite(9, brillo);
+}
+```
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej%208%20profe.PNG" width= 1024 height= 600 />
 
 ##### EJ 8 Arduino Boton+Pot Processing PRESENTACIÓN
 código arduino
