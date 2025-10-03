@@ -66,6 +66,7 @@ void loop() {
 }
 ```
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/potenciometro.png" width=1024 height=550 />
+<img src="https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/ej4.jpg" />
 
 ##### Ejercicio n°5: Semáforo
 ```
