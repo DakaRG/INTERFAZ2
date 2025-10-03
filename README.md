@@ -591,4 +591,4 @@ void playTrack(int index) {
 }
 ```
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/botonera.PNG" width= 1024 height= 500 />
-# LINK DRIVE: https://drive.google.com/drive/folders/1BS_4HVPIA8Epd3rhjGsshbNoOhZ9KH9F?usp=drive_link
+LINK DRIVE CON REGISTRO DE SONIDOS: https://drive.google.com/drive/folders/1BS_4HVPIA8Epd3rhjGsshbNoOhZ9KH9F?usp=drive_link
