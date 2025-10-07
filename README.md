@@ -377,7 +377,7 @@ void draw() {
     ellipse(c.x, random(300,900), c.size*6, c.size*4);
   }
   
-  // Leer datos de Arduino
+  // Leer datos de Arduino y reconocer si hay datos nuevos
   if (myPort.available() > 0) {
     String val = myPort.readStringUntil('\n');
     if (val != null) {
@@ -387,8 +387,8 @@ void draw() {
         String[] parts = split(val, ',');
         if (parts.length == 2) {
           float potVal = float(parts[1]);
-          float circleSize = map(potVal, 0, 1023, 10, 100); // tamaño 10-100 px
-          circles.add(new CircleData(random(width), random(height), circleSize));
+          float circleSize = map(potVal, 0, 1023, 10, 100); //traduce el valor del potenciómetro a un tamaño de 10-100 px, se gira el potenciometro, circulos mas grandes o pequeños
+          circles.add(new CircleData(random(width), random(height), circleSize)); //se genera el nuevo circulo y lo guarda en la lista circles para que se dibuje en la pantalla
         }
       }
     }
