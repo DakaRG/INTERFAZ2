@@ -326,7 +326,7 @@ código arduino
 ```
 int buttonPin = 2;       // Pin del botón
 int potPin = A0;         // Pin del potenciómetro
-int buttonState = 0;
+int buttonState = 0;    //Variable donde se guarda el valor del botón 
 
 void setup() {
   pinMode(buttonPin, INPUT_PULLUP); // Botón con resistencia interna
@@ -334,23 +334,23 @@ void setup() {
 }
 
 void loop() {
-  buttonState = digitalRead(buttonPin);
+  buttonState = digitalRead(buttonPin);  //lee el estado del botón
 
-  if (buttonState == HIGH) {   // Botón presionado
-    int potValue = analogRead(potPin);   // 0 - 1023
+  if (buttonState == HIGH) {   // si el Botón es presionado
+    int potValue = analogRead(potPin);   // lee el potenciómetro que va 0 - 1023
     Serial.print("BTN,");     // etiqueta para Processing
     Serial.println(potValue); // mando el valor junto con el evento
-    delay(400);               // debounce simple
+    delay(400);               // debounce simple (permite evitar señales repetidas)
   }
 }
 ```
 
 Codigo processing
 ```
-import processing.serial.*;
+import processing.serial.*;  //se llama la librería serial
 
 Serial myPort;
-ArrayList<CircleData> circles; 
+ArrayList<CircleData> circles; //aquí se guardan los círculos dibujados
 
 void setup() {
   size(1200, 720);
