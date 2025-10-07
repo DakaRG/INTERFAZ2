@@ -365,12 +365,12 @@ void setup() {
 }
 
 void draw() {
-  background((0),(200), random(100,255));
+ // background((0),(200), random(100,255));
   
   // Dibujar todos los círculos guardados
   //fill(0, 150, 255);
   //noStroke();
-  fill(random(255), 0, 200);
+  fill(random(255), 0, 200);  //relleno aleatorio
   stroke(60, 255, 0);
   for (CircleData c : circles) {
     ellipse(random(c.x), c.y, c.size*3, c.size*3);
