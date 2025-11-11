@@ -613,14 +613,14 @@ void playTrack(int index) {
 LINK DRIVE CON REGISTRO DE SONIDOS: https://drive.google.com/drive/folders/1BS_4HVPIA8Epd3rhjGsshbNoOhZ9KH9F?usp=drive_link
 
 
-Ejercicio Grupal Entrega 4 de nov
-###Rastro sin contacto.
+### Ejercicio Grupal Entrega 4 de nov
+##### Rastro sin contacto.
 
 Descripción: Para nuestro proyecto ocuparemos Processing, arduino y potenciómetro como herramientas para desarrollar nuestra obra. En Processing buscaremos crear un una obra de carácter interactivo y con elementos visuales estimulantes y que sean llamativos desde el aspecto de color y la figura. Esta instalación interactiva es posible gracias al uso del sensor de la cámara que ayuda a reconocer el movimiento, en este caso el de la mano, de quien esté frente a esta.
 Cuando el usuario mueve la mano frente a la cámara, aparece una estela blanca que sigue ese movimiento. Además, aparece un círculo amarillo en la pantalla que el usuario puede y debe tocar con su mano. Cuando lo toca mediante la estela, el círculo explota y aparece otro nuevo en nueva posición aleatoria.
 Por medio del arduino y el potenciómetro se añade una nueva experiencia,ya que con ayuda del potenciómetro se cambia el color de la estela a gusto personal, esto añade un sentimiento de control sobre la actividad.
 
-###Código Arduino:
+### Código Arduino:
 ```
 void setup() {
   Serial.begin(9600);
@@ -632,7 +632,7 @@ void loop() {
   delay(50);                   // Evita saturar el puerto serie
 }
 ```
-###Codigo processing
+### Codigo processing
 ```
 import processing.video.*;
 import processing.serial.*;
