@@ -984,9 +984,11 @@ PImage[] loadImagesFromFolder(String folderName) {
   return loaded.toArray(new PImage[loaded.size()]);
 }
 ```
-< img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/promedioimagenes.jpg" />
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/promedioimagenes.jpg" />
 
 LINK DRIVE CON VIDEOS DE LOS EJERCICIOS:
+https://drive.google.com/drive/folders/1b45O2BfcJ6RduNLXU76lctVqxf0sKntt
+
 
 
 ### Ejercicio Grupal Entrega 4 de nov
