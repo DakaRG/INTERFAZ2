@@ -612,6 +612,7 @@ void playTrack(int index) {
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/botonera.PNG" width= 1024 height= 500 />
 LINK DRIVE CON REGISTRO DE SONIDOS: https://drive.google.com/drive/folders/1BS_4HVPIA8Epd3rhjGsshbNoOhZ9KH9F?usp=drive_link
 
+# Inasistencias con fecha: 14 y 21 de Octubre con justificativo médico para el día 21.
 
 ### Ejercicio Grupal Entrega 4 de nov
 ##### Rastro sin contacto.
@@ -799,5 +800,7 @@ void draw() {
   }
 }
 ```
-
+### LINKS A VIDEOS DE PRUEBA
+https://www.youtubeeducation.com/watch?v=XciaUtJu_mo 
+https://www.youtubeeducation.com/watch?v=OPgpKR6e550 
 
