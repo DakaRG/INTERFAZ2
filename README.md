@@ -1184,7 +1184,7 @@ https://www.youtubeeducation.com/watch?v=OPgpKR6e550
 
 
 ## Entrega Final:
-Para esta ocasión, mejoramos el código pasado con: ya no sigue solo el movimiento, sino que reconoce el color rojo. Existe un contador de puntos, el cual se reinicia una vez se apreta el botón conectado al arduino. Mantuvimos el poteciómetro para el cambio de color de las estelas. 
+Para esta ocasión, mejoramos el código pasado con: ya no sigue solo el movimiento, sino que reconoce el color rojo. Existe un contador de puntos, el cual se reinicia una vez se apreta el botón conectado al arduino. Mantuvimos el poteciómetro para el cambio de color de las estelas. Se colocaron códigos QR distribuidos por la sala los cuales dirigen a una imagen específica de color rojo, ésta es reconocida gratamente gracias a su potencia y el mismo brillo de las pantallas de los celulares. 
 
 #### Código Arduino:
 ```
@@ -1423,6 +1423,10 @@ void playRandomSound() {
 ```
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/Montaje.jpg" />
 <img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/montaje%201.jpg" />
+
+Código QR con acceso a la imagen de color rojo:
+<img src= "https://raw.githubusercontent.com/DakaRG/INTERFAZ2/refs/heads/main/img/mi%20c%C3%B3digo%20qr%202.png" />
+
 
 LINK DRIVE REGISTRO DE MONTAJE FINAL
 https://drive.google.com/drive/u/0/folders/1Dsicy1mUTEc919w5UEG8gVPpzdoaSMIv 
